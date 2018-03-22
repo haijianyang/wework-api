@@ -1,0 +1,31 @@
+{
+  "name": "wework-api",
+  "version": "1.0.0",
+  "description": "wework api",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haijianyang/wework-api.git"
+  },
+  "author": "haijianyang<weber.yhj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haijianyang/wework-api/issues"
+  },
+  "homepage": "https://github.com/haijianyang/wework-api#readme",
+  "devDependencies": {
+    "ava": "^1.0.0-beta.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "ioredis": "^3.2.2"
+  },
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}

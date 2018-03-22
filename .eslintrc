@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "parser": "esprima",
+  "extends": "airbnb-base",
+  "globals": {},
+  "env": {
+    "node": true
+  },
+  "plugins": [],
+  "rules": {
+    "comma-dangle": "off",
+    "no-bitwise": "off",
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}
