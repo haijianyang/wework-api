@@ -1,6 +1,6 @@
 {
   "name": "wework-api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "wework api",
   "main": "index.js",
   "scripts": {
